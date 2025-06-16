@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const BlogPost = require('../models/blogpost');
-const authenticateToken = require('../middleware/auth');
+// ✅ Correct (relative path)
+const authenticateToken = require('../middleware/authmiddleware');
 
 // @route   POST /api/posts
 // @desc    Create a new blog post
