@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const BlogPost = require('../models/BlogPost');
+const BlogPost = require('../models/blogpost');
 const authenticateToken = require('../middleware/auth');
 
 // @route   POST /api/posts
